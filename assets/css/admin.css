@@ -1,0 +1,102 @@
+/* Heading of the admin Page */
+.heading {
+    display: flex;
+    justify-content: center;
+    color: #333;
+    font-size: 1.5rem;
+    text-decoration: underline 2px #0077b3;
+    font-weight: bold;
+  }
+  
+  .text-center {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    text-decoration: underline 2px #0077b3;
+    font-weight: bold;
+  }
+  
+  /* Assign Heading */
+  .assignHeading {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Container for assigning reviewer and reviewing */
+  .reviewContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #0077b3;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 30%;
+    align-items: center;
+    height: fit-content;
+    border-radius: 10px;
+  }
+  
+  /* Reviewer container */
+  .reviewer {
+    width: 90%;
+  }
+  
+  /* Submit buttons div */
+  .submitButtons {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  /* Submit buttons */
+  .submitButtons button {
+    background-color: #0077b3;
+    width: 10vw;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .submitButtons button:hover {
+    background-color: #005c8e;
+  }
+  
+  /* Button used in assigning admin */
+  .submitButtons2 {
+    width: 10vw;
+  }
+  
+  /* Generic button styles */
+  .btn {
+    background-color: #0077b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #addemp {
+    background-color: #b4f1f9;
+  }
+  
+  /* Additional styling for a more modern look */
+  body {
+    background-color: #f3f8f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  /* Add more styles for other elements as needed */
+  
+  

@@ -1,0 +1,107 @@
+/* The styling of the home page is done in such a way that all the elements are centered */
+.outerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  /* If the current admin is not admin, this is going to show */
+  .adminPass {
+    margin-top: -45px;
+  }
+  
+  /* Submit button of admin pass */
+  .submitHomeButton {
+    border: 1px solid #333;
+    background-color: #0077b3;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 8px 16px;
+  }
+  
+  .submitHomeButton:hover {
+    background-color: #005c8e;
+  }
+  
+  /* Home box */
+  .home-box {
+    width: 55%;
+    height: fit-content;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .employeereview {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+  }
+  
+  .employeereview img {
+    height: 85px;
+    width: 95px;
+  }
+  
+  .myreview {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+  }
+  
+  .myreview img {
+    height: 85px;
+    width: 95px;
+  }
+  
+  .adminPass > form > input {
+    outline: none;
+    border: 1px solid #0077b3;
+    border-radius: 7px;
+  }
+  
+  /* Here the user can review the co-employee if assigned by the admin */
+  .reviewBox {
+    width: 95%;
+    height: fit-content;
+    min-height: 140px;
+    padding: 5px;
+    border: 1px solid #0077b3;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  
+  /* Class of form, so that we can style its content */
+  .formClass {
+    width: 90%;
+    padding: 10px;
+  }
+  
+  /* There are two cards while reviewing, we just have to make good use of them */
+  .in-card {
+    width: 70%;
+    border: none;
+    background-color: #0077b3;
+    border-radius: 10px;
+    margin-left: 15%;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Additional styling for a more modern look */
+  body {
+    background-color: #f3f8f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  /* Add more styles for other elements as needed */
+  
+  
